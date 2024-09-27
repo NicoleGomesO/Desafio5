@@ -1,0 +1,58 @@
+body{
+    background-color: #f0f0f0;
+    
+}
+.cabecalho {
+    background-color: #4CAF50;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.logo{
+    width: 8em;
+}
+
+.navegacao{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #4CAF50;
+}
+
+.conteudo {
+    padding: 2em;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
